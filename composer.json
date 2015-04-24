@@ -1,0 +1,21 @@
+{
+    "name": "voskobovich/yii2-materialize",
+    "description": "Materialize CSS Framework Extension for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2"," extension"," materialize"," css"," framework"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaly Voskobovich",
+            "email": "vitaly@voskobovich.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "voskobovich\\materialize\\": ""
+        }
+    }
+}
