@@ -1,0 +1,23 @@
+.file-field label {
+    margin-left: 100px;
+    width: calc(100% - 100px);
+}
+
+.radioList-field,
+.checkboxList-field {
+    position: relative;
+    margin: 1rem 0 1rem 0;
+}
+
+.radioList-field > label,
+.checkboxList-field > label {
+    color: #9e9e9e;
+    margin-left: 0.75rem;
+    font-size: 0.8rem;
+    cursor: text;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    -ms-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
